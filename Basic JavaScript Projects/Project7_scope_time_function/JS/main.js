@@ -9,7 +9,7 @@ function addNumbers2() {           //local vs. global variables. addNumbers2 get
 addNumbers();
 addNumbers2();
 
-function get_Date() {
+function get_Date() {       // greet the user if its before 6 p.m.
     if (new Date().getHours() < 18) {
         document.getElementById("Greeting").innerHTML = "How are you today?";
     }
