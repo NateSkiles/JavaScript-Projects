@@ -15,19 +15,6 @@ function countdown() {
 var slideIndex = 1;
 showSlides(slideIndex);
 
-//Next-Previous Controls
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
-
-//Thumbnail image controls
-function currentSlide(n){
-    showSlides(slideIndex = n);
-}
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
@@ -51,3 +38,4 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+showSlides(slideIndex);
