@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+     <title>Arrow Function</title>
+</head>
+<body>
+    <p id="myFunction"></p>
+    <p id="myFunction2"></p>
+    <script>
+        hello = function() {
+            return 'Hello World';
+        }
+
+        document.getElementById("myFunction").innerHTML = hello();
+    </script>
+
+    <script>
+        hello = () => 'Hello World!';
+        document.getElementById("myFunction2").innerHTML = hello();
+    </script>
+
+
+</body>
+</html>
